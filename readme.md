@@ -12,7 +12,7 @@
 ---
 
 3. Deployment: https://github.com/DaryaDudkova98/async-race.git
-https://DaryaDudkova98.github.io/async-race/
+
 ---
 
 4. Done 25.08.2026 / deadline 30.08.2026
