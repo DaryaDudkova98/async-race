@@ -93,7 +93,7 @@ cd async-race
 
 ```bash
 npm install
-
+```
 ### 3. Установите и запустите сервер мок
 
 ```bash
