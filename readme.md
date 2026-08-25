@@ -110,9 +110,8 @@ npm install
 
 # Запустите сервер
 npm start
-
-- **Server:** будет доступен по адресу: https://github.com/mikhama/async-race-api
 ```
+- **Server:** будет доступен по адресу: https://github.com/mikhama/async-race-api
 
 ### 4. Запустите фронтенд
 
@@ -124,6 +123,6 @@ cd ..
 
 # Запустите проект
 npm run dev
-
-Откройте http://localhost:5173
 ```
+Откройте http://localhost:5173
+
