@@ -88,12 +88,14 @@
 ```bash
 git clone https://github.com/DaryaDudkova98/async-race.git
 cd async-race
+```
 
 ### 2. Установите зависимости для фронтенда
 
 ```bash
 npm install
 ```
+
 ### 3. Установите и запустите сервер мок
 
 ```bash
@@ -110,6 +112,7 @@ npm install
 npm start
 
 - **Server:** будет доступен по адресу: https://github.com/mikhama/async-race-api
+```
 
 ### 4. Запустите фронтенд
 
@@ -123,3 +126,4 @@ cd ..
 npm run dev
 
 Откройте http://localhost:5173
+```
