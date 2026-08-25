@@ -11,7 +11,11 @@
 
 ---
 
-3. Deployment: https://github.com/DaryaDudkova98/async-race.git
+3. Deployment: 
+
+**GitHub Pages:** [https://daryadudkova98.github.io/async-race/](https://daryadudkova98.github.io/async-race/)
+
+**Репозиторий:** [https://github.com/DaryaDudkova98/async-race](https://github.com/DaryaDudkova98/async-race)
 
 ---
 
@@ -64,5 +68,58 @@
 - [x] The table has columns: №, image, name, number of wins, best time (in seconds). Win count increments on repeat wins; best time is updated only if the new time is better **+25**;
 - [x] Sorting by number of wins and by best time works in both ascending and descending order **+25**.
 
+---
 
-- **Server:** https://github.com/mikhama/async-race-api
+## Технологии
+
+- **TypeScript** — строгая типизация
+- **Vite** — сборка проекта
+- **Fetch API** — работа с сервером
+- **requestAnimationFrame** — плавная анимация
+- **CSS animations** — визуальные эффекты
+- **GitHub Pages** — деплой
+
+---
+
+## Установка и запуск
+
+### 1. Клонируйте репозиторий
+
+```bash
+git clone https://github.com/DaryaDudkova98/async-race.git
+cd async-race
+
+### 2. Установите зависимости для фронтенда
+
+```bash
+npm install
+
+### 3. Установите и запустите сервер мок
+
+```bash
+# Клонируйте сервер
+git clone https://github.com/mikhama/async-race-api.git async-race-api
+
+# Перейдите в папку сервера
+cd async-race-api
+
+# Установите зависимости
+npm install
+
+# Запустите сервер
+npm start
+
+- **Server:** будет доступен по адресу: https://github.com/mikhama/async-race-api
+
+### 4. Запустите фронтенд
+
+В новом терминале (сервер должен продолжать работать):
+
+```bash
+# Вернитесь в корневую папку проекта
+cd ..
+
+# Запустите проект
+npm run dev
+
+Откройте http://localhost:5173
