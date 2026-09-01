@@ -1,35 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="./img/icon-car.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/styles/main.css">
-    <title>Async Race</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module">
-      console.log('1. Script started');
-      
-      import { App } from './src/components/app.ts';
-      console.log('2. App imported', App);
-      
-      document.addEventListener('DOMContentLoaded', () => {
-        console.log('3. DOM loaded');
-        const container = document.getElementById('app');
-        console.log('4. Container:', container);
-        
-        if (container) {
-          console.log('5. Creating App instance');
-          const app = new App(container);
-          console.log('6. App instance created', app);
-          app.init();
-          console.log('7. App.init() called');
-        } else {
-          console.error('Container #app not found!');
-        }
-      });
-    </script>
-  </body>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/icon-car.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <title>Async Race</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module">
+  import { App } from './src/components/app.ts';
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('app');
+    if (container) {
+      const app = new App(container);
+      app.init();
+    }
+  });
+</script>
+  </body>
 </html>
