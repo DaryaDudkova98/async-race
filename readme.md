@@ -88,6 +88,7 @@
 ```bash
 git clone https://github.com/DaryaDudkova98/async-race.git
 cd async-race
+git checkout async-race
 ```
 
 ### 2. Установите зависимости для фронтенда
