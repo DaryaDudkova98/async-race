@@ -23,14 +23,14 @@
   },
   "homepage": "https://github.com/DaryaDudkova98/async-race#readme",
   "devDependencies": {
-    "@types/node": "^26.1.2",
+    "@types/node": "^22.20.1",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "eslint": "^8.56.0",
     "eslint-plugin-unicorn": "^50.0.1",
     "gh-pages": "^6.1.1",
     "json-server": "^1.0.0-beta.15",
-    "typescript": "^5.3.3",
+    "typescript": "^5.6.3",
     "vite": "^8.2.0"
   }
 }
