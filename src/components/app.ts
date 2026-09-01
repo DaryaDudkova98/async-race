@@ -1,5 +1,5 @@
-import { GarageView } from './GarageView.js';
-import { WinnersView } from './WinnersView.js';
+import { GarageView } from './GarageView.ts';
+import { WinnersView } from './WinnersView.ts';
 
 // Тип для представлений
 type ViewType = 'garage' | 'winners';
