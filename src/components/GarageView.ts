@@ -714,7 +714,7 @@ export class GarageView {
       }
     }, 80);
 
-    this.exhaustIntervals.set(carId, interval);
+    this.exhaustIntervals.set(carId, interval as unknown as number);
   }
 
   private stopExhaust(carId: number, container: HTMLElement): void {
